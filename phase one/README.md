@@ -1,12 +1,12 @@
-Introduction
+# Introduction
  This document presents a C++ program designed to tokenize source code. Tokenization is the process of breaking down a sequence of characters into meaningful chunks called tokens. These tokens can include keywords, identifiers, numbers, strings, symbols, and whitespace. 
 
 The program utilizes regular expressions to define patterns for each type of token in the C++ programming language. It then iterates through the input code, identifying and classifying tokens based on these patterns.
 
- Code Overview 
+ # Code Overview 
 The C++ program consists of two main parts: the token structure definition and the tokenization function. 
 
-Token Structure 
+# Token Structure 
 The `Token` structure is defined to store information about each token encountered during the tokenization process. It contains the following members
 : - `type`: Represents the type of the token (e.g., Reservedword, Identifier, Number).
  - `lexeme`: Stores the actual text of the token.
@@ -14,7 +14,7 @@ The `Token` structure is defined to store information about each token encounter
 
 Tokenization Function (`tokenize`) The `tokenize` function takes a string `code` representing the source code as input and returns a vector of `Token` objects.
 
- Regular Expressions 
+ # Regular Expressions 
 Several regular expressions are defined to match different types of tokens in C++:
  - `reservedword`: Matches reserved keywords in C++.
  - `identifier`: Matches valid identifiers.
