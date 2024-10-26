@@ -1,0 +1,13 @@
+ASSIGN   x
+ASSIGN 0  s
+ASSIGN 10  t
+> t  t0
+ASSIGN   x
+- t 1 t1
+ASSIGN t1  t
++ s x t2
+ASSIGN t2  s
+WHILE t0  
+PRINT <  
+ASSIGN   s
+RETURN 0  
